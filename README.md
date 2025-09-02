@@ -1,6 +1,10 @@
 # RAG技术选型
 
 ## 环境准备
+```powershell
+pip install torch torchvision torchaudio -f https://mirrors.aliyun.com/pytorch-wheels/cu129/
+```
+
 ```python
 import torch
 print(torch.__version__)       # 2.8.0+cu129
