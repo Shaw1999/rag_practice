@@ -27,7 +27,12 @@ print(torch.cuda.get_device_name(0))    # NVIDIA GeForce RTX 3080 Laptop GPU
 ### LlamaIndex
 
 ## embedding
-### 
+- 纯中文
+  - bge-large-zh-v1.5
+- 纯英文
+  - gte-large
+- 中英文混合
+  - bge-m3
 
 ## 转换为标准格式数据
 ```text
