@@ -3,8 +3,8 @@
 ## 环境准备
 ```python
 import torch
-print(torch.__version__)       # 2.5.1+cu121
-print(torch.version.cuda)      # 12.1
+print(torch.__version__)       # 2.8.0+cu129
+print(torch.version.cuda)      # 12.9
 print(torch.cuda.is_available())    # True
 print(torch.cuda.get_device_name(0))    # NVIDIA GeForce RTX 3080 Laptop GPU
 ```
