@@ -1,0 +1,54 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python bytecode / venv
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking / lint / misc caches
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs
+log/
+*.log
+
+# Env files
+.env
+.env.*
+
+# Data & local model caches (optional - keep if you commit data/models)
+data/
+datasets/
+tmp/
+temp/
+hf_cache/
+models/
