@@ -1,4 +1,4 @@
-from src.libs.log import logger
+from src.libs.project_logger import logger
 from src.libs.record_time import record_time
 
 BGE_LARGE_ZH_V1_5 = r"E:\huggingface_cache\hub\models--BAAI--bge-large-zh-v1.5\bge-large-zh-v1.5"

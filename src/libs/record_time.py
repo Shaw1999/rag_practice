@@ -7,7 +7,7 @@ from functools import wraps
 from pathlib import Path
 from time import perf_counter
 
-from src.libs.log import logger
+from src.libs.project_logger import logger
 
 
 def _format_dt(dt: datetime) -> str:

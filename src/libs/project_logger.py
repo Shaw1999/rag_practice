@@ -35,4 +35,4 @@ if not logger.handlers:
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
-__all__ = ["logger"]
+__all__ = []
