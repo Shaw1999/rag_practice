@@ -1,4 +1,4 @@
-from src.data_loader.data_loader import BaseDataLoader
+from src.data_loader.base_data_loader import BaseDataLoader
 
 
 class TextDataLoader(BaseDataLoader):
